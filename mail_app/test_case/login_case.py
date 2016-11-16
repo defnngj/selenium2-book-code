@@ -40,8 +40,8 @@ class loginTest(myunit.MyTest):
         '''用户名、密码正确，登录成功'''
         po = LoginPage(self.driver)
         po.open()
-        user = "test_pub"
-        po.login_action(user,"761988")
+        user = "username"
+        po.login_action(user,"password")
         sleep(2)
         po2 = MailPage(self.driver)
         self.assertEqual(po2.login_success_user(), user+"@163.com")
