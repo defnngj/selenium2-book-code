@@ -10,7 +10,7 @@ Method:
 '''
 from selenium import webdriver
 
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 driver.get("http://www.126.com")
 
 driver.switch_to.frame('x-URS-iframe')

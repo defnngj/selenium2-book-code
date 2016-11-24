@@ -9,7 +9,7 @@ Method:
 '''
 from selenium import webdriver
 
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 driver.get("http://www.baidu.com")
 
 # 获得输入框的尺寸

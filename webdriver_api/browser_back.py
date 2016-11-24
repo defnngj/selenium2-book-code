@@ -8,7 +8,7 @@ Method:
 '''
 from selenium import webdriver
 
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 
 #访问百度首页
 first_url= 'http://www.baidu.com'
