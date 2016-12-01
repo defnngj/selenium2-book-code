@@ -9,7 +9,7 @@ from selenium import webdriver
 import os, time
 
 
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 file_path = 'file:///' + os.path.abspath('./web_page/frame.html')
 driver.get(file_path)
 
@@ -21,7 +21,7 @@ driver.get(file_path)
 # 切换到 iframe（id="if"）
 driver.switch_to.frame("if")
 # 下面就可以正常的操作元素了
-driver.find_element_by_id("kw").send_keys("selenium")
+driver.find_element_by_id("kw").send_keys("selenium3.0")
 driver.find_element_by_id("su").click()
 time.sleep(3)
 
