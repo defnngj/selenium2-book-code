@@ -12,5 +12,10 @@ Python版本与依赖库：
   * Selenium3.0+ :https://pypi.python.org/pypi/selenium 
   
 
+运行建议：
+   所有例子在Chrome浏览器下运行通过，建议使用Chrome浏览器。
+   Chromedriver(Chrome)驱动下载地址：https://sites.google.com/a/chromium.org/chromedriver/home
+
+
 购买本书：
   http://item.jd.com/11858013.html
