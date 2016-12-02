@@ -3,7 +3,8 @@
 介绍：
   本项目为《Selenium2 自动化测试实战---基于Python语言》一书中的例子
   它包含功能:
-  * 书中第四章例子，对应webdriver_api目录
+  * 第四章例子，对应webdriver_api目录
+  * 第五章例子，对应test_model目录
   * 最后项目实例，对应整个项目代码
   
 
