@@ -1,7 +1,7 @@
 '''
 Author: 虫师
 Date: 2016/12/2
-Method: 
+Method:
   * Select  操作select标签的下拉框。
   * select_by_value  选择vlaue属性。
 '''
@@ -10,7 +10,7 @@ from selenium.webdriver.support.select import Select
 import os
 
 driver = webdriver.Chrome()
-file_path = 'file:///' + os.path.abspath('./web_page/select_tag.html')
+file_path = 'file:///' + os.path.abspath('./webdriver_api/web_page/select_tag.html')
 driver.get(file_path)
 
 sel = driver.find_element_by_xpath("//select[@id='status']")

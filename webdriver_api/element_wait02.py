@@ -1,14 +1,14 @@
 '''
 Author: 虫师
 Date: 2016/11/24
-Method: 
-  *  
+Method:
+  *
 '''
 from selenium import webdriver
 
 
 driver = webdriver.Chrome()
-driver.get("http://www.baidu.com")
+driver.get("https://www.baidu.com")
 
 print(ctime())
 for i in range(10):
@@ -24,5 +24,3 @@ else:
 print(ctime())
 
 driver.close()
-
-

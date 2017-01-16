@@ -1,7 +1,7 @@
 '''
 Author: 虫师
 Date: 2016/11/24
-Method: 
+Method:
   *  implicitly_wait() 隐式等待
 '''
 from selenium import webdriver
@@ -12,7 +12,7 @@ driver = webdriver.Chrome()
 
 # 设置隐式等待为 10 秒
 driver.implicitly_wait(10)
-driver.get("http://www.baidu.com")
+driver.get("https://www.baidu.com")
 
 try:
     print(ctime())

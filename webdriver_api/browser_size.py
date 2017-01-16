@@ -1,7 +1,7 @@
 '''
 Author: 虫师
 Date: 2016/11/22
-Method: 
+Method:
   *  set_window_size()   设置浏览器宽、高
   *  maximize_window()   设置浏览器全屏
 '''

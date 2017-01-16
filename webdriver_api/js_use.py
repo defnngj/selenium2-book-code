@@ -1,14 +1,14 @@
 '''
 Author: 虫师
 Date: 2016/12/1
-Method: 
+Method:
   * execute_script() 调用JavaScript操作Web。
 '''
 from selenium import webdriver
 from time import sleep
 
 driver=webdriver.Chrome()
-driver.get("http://www.baidu.com")
+driver.get("https://www.baidu.com")
 
 driver.set_window_size(600, 600)
 driver.find_element_by_id("kw").send_keys("selenium")

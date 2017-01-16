@@ -1,11 +1,11 @@
 '''
 Author: 虫师
 Date: 2016/12/1
-Method: 
+Method:
   * text：返回 alert/confirm/prompt 中的文字信息。
-* accept()：接受现有警告框。
-* dismiss()：解散现有警告框。
-* send_keys(keysToSend)： 发送文本至警告框。 keysToSend：将文本发送至警告框。
+  * accept()：接受现有警告框。
+  * dismiss()：解散现有警告框。
+  * send_keys(keysToSend)： 发送文本至警告框。 keysToSend：将文本发送至警告框。
 '''
 from selenium import webdriver
 

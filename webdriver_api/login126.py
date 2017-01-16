@@ -1,7 +1,7 @@
 '''
 Author: 虫师
 Date: 2016/11/22
-Method: 
+Method:
   *  clear()   清除输入框的内容
   *  send_keys()   输入框输入
   *  click()   点击任何可点击的元素（按钮、链接、复选框等）
@@ -14,11 +14,11 @@ driver = webdriver.Chrome()
 driver.get("http://www.126.com")
 
 driver.switch_to.frame('x-URS-iframe')
-driver.find_element_by_id("idInput").clear()
-driver.find_element_by_id("idInput").send_keys("username")
-driver.find_element_by_id("pwdInput").clear()
-driver.find_element_by_id("pwdInput").send_keys("password")
-driver.find_element_by_id("loginBtn").click()
+driver.find_element_by_name("email").clear()
+driver.find_element_by_name("email").send_keys("username")
+driver.find_element_by_name("password").clear()
+driver.find_element_by_name("password").send_keys("password")
+driver.find_element_by_id("dologin").click()
 driver.switch_to.default_content()
 
 driver.quit()

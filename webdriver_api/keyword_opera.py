@@ -1,7 +1,7 @@
 '''
 Author: 虫师
 Date: 2016/11/22
-Method: 
+Method:
   * send_keys(Keys.BACK_SPACE) 删除键（BackSpace）
   * send_keys(Keys.SPACE) 空格键(Space)
   * send_keys(Keys.TAB) 制表键(Tab)
@@ -21,7 +21,7 @@ from selenium.webdriver.common.keys import Keys
 
 
 driver = webdriver.Chrome()
-driver.get("http://www.baidu.com")
+driver.get("https://www.baidu.com")
 
 
 # 输入框输入内容

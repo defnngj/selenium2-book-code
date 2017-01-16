@@ -1,14 +1,15 @@
 '''
 Author: 虫师
 Date: 2016/11/24
-Method: 
+Method:
   *  find_elements_by_xpath("xx")          定位一组xpath定位为xx的元素
   *  find_elements_by_css_selector("xx")   定位一组css定位为xx的元素
 '''
 from selenium import webdriver
 import os,time
+
 driver = webdriver.Chrome()
-file_path = 'file:///' + os.path.abspath('./web_page/checkbox.html')
+file_path = 'file:///' + os.path.abspath('./webdriver_api/web_page/checkbox.html')
 driver.get(file_path)
 
 # 通过 XPath 找到 type=checkbox 的元素

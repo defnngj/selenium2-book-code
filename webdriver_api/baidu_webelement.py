@@ -1,11 +1,11 @@
 '''
 Author: 虫师
 Date: 2016/11/22
-Method: 
+Method:
   *  size     返回元素的尺寸。
   *  text     获取元素的文本。
-*  get_attribute(name)   获得属性值。
-*  is_displayed()        设置该元素是否用户可见。
+  *  get_attribute(name)   获得属性值。
+  *  is_displayed()        设置该元素是否用户可见。
 '''
 from selenium import webdriver
 

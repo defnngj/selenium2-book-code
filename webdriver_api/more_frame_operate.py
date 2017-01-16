@@ -1,7 +1,7 @@
 '''
 Author: 虫师
 Date: 2016/11/22
-Method: 
+Method:
   *  switch_to.frame()  进入表单
   *  switch_to.default_content()  退出表单至根页面
 '''
@@ -10,7 +10,7 @@ import os, time
 
 
 driver = webdriver.Chrome()
-file_path = 'file:///' + os.path.abspath('./web_page/frame.html')
+file_path = 'file:///' + os.path.abspath('./webdriver_api/web_page/frame.html')
 driver.get(file_path)
 
 #先通过 xpth 定位到 iframe

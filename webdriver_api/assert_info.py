@@ -1,7 +1,7 @@
 '''
 Author: 虫师
 Date: 2016/11/24
-Method: 
+Method:
   *  title         获取当前页面title
   *  current_url   获取当前页面URL
   *  text          获得文本信息
@@ -23,11 +23,11 @@ print(now_url)
 
 # 执行邮箱登录
 driver.switch_to.frame('x-URS-iframe')
-driver.find_element_by_id("idInput").clear()
-driver.find_element_by_id("idInput").send_keys("username")
-driver.find_element_by_id("pwdInput").clear()
-driver.find_element_by_id("pwdInput").send_keys("password")
-driver.find_element_by_id("loginBtn").click()
+driver.find_element_by_name("email").clear()
+driver.find_element_by_name("email").send_keys("username")
+driver.find_element_by_name("password").clear()
+driver.find_element_by_name("password").send_keys("password")
+driver.find_element_by_id("dologin").click()
 driver.switch_to.default_content()
 time.sleep(5)
 

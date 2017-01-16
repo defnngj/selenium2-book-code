@@ -1,7 +1,7 @@
 '''
 Author: 虫师
 Date: 2016/12/1
-Method: 
+Method:
   * execute_script() 调用JavaScript操作Web。
 '''
 from selenium import webdriver
