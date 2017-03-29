@@ -10,7 +10,7 @@ Method:
 from selenium import webdriver
 
 driver = webdriver.Chrome()
-driver.get("http://www.baidu.com")
+driver.get("https://www.baidu.com")
 
 # 获得输入框的尺寸
 size = driver.find_element_by_id('kw').size

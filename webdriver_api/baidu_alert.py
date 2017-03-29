@@ -8,19 +8,20 @@ Method:
   * send_keys(keysToSend)： 发送文本至警告框。 keysToSend：将文本发送至警告框。
 '''
 from selenium import webdriver
-
+from time import sleep
 
 driver = webdriver.Chrome()
 driver.get("https://www.baidu.com")
 
 driver.find_element_by_link_text("设置").click()
 driver.find_element_by_class_name("setpref").click()
+sleep(2)
 
 # 保存设置
 driver.find_element_by_class_name("prefpanelgo").click()
-time.sleep(2)
+sleep(2)
 
 # 接受警告框
-driver.switch_to_alert().accept()
+driver.switch_to.alert().accept()
 
 driver.quit()
